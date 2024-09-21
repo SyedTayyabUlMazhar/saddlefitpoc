@@ -39,6 +39,7 @@ function App() {
           style={{
             height: `${svgHeight}px`,
             zIndex: -1,
+            overflow: "hidden",
           }}
         />
         <div style={styles.overlay} />
