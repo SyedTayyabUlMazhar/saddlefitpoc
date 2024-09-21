@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     const handleResize = () => {
-      setWindowWidth(window.innerWidth);
+      setWindowWidth(window.outerWidth);
     };
     window.addEventListener("resize", handleResize);
     return () => {
@@ -30,6 +30,7 @@ function App() {
       <div
         style={{
           ...styles.child,
+          flex: undefined,
           height: svgHeight - svgHeight * 0.2,
           justifyContent: "start",
         }}
@@ -100,7 +101,7 @@ const styles: Record<string, CSSProperties> = {
   },
   child: {
     width: "100%",
-    height: "33.33%",
+    flex: 1,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
