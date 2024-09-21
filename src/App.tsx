@@ -55,7 +55,7 @@ function App() {
           viewBox="0 0 269 357"
           fill="none"
         >
-          <image height="100%" href={imageUrl} clip-path="url(#shapeInside)" />
+          <image height="100%" href={imageUrl} clipPath="url(#shapeInside)" />
           <path
             d="M237.5 177.615L3.05176e-05 337.5V357.002L268.7 177.615L3.05176e-05 0V20L237.5 177.615Z"
             fill="url(#paint0_linear_25_5)"
@@ -69,9 +69,9 @@ function App() {
               y2="394"
               gradientUnits="userSpaceOnUse"
             >
-              <stop offset="0.0499" stop-color="#ffffff3b" />
-              <stop offset="0.49" stop-color="#f5f5f51d" />
-              <stop offset="1" stop-color="white" />
+              <stop offset="0.0499" stopColor="#ffffff3b" />
+              <stop offset="0.49" stopColor="#f5f5f51d" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
             <clipPath id="shapeInside">
               <path
